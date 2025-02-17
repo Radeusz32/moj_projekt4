@@ -1,1 +1,7 @@
-includes:\n  - ./vendor/nunomaduro/larastan/extension.neon\n\nparameters:\n  level: 5\n  paths:\n    - app/
+includes:
+  - ./vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+  level: 5
+  paths:
+    - app/
